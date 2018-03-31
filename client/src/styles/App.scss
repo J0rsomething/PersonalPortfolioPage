@@ -1,0 +1,9 @@
+:local(.app_container) {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+:local(.app_body_container) {
+  flex:1;
+  
+}

@@ -1,0 +1,21 @@
+:local(.footer_container) {
+  min-width: 100vw;
+  height: 250px;
+  background-color: rgb(233,233,233);
+  display: flex;
+  flex-direction: column;
+}
+:local(.body) {
+  flex:1;
+}
+:local(.buttom_bar) {
+  height: 20px;
+  background-color: #393939;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(163,163,163);
+}
+:local(.header) {
+  
+}
