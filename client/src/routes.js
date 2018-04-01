@@ -9,6 +9,7 @@ const Routes = (props)=> (
     <Route component={NavigationBar}>
       <Route path='/' component={Homepage}/>
       <Route path='/photos' component={()=>(<p>Photos</p>)}/>
+
       <Route path='/forums' component={()=><p>Forums</p>}>
         <Route path='experiences' component={()=>(<p>Forum->Experiences</p>)}/>
         <Route path='news' component={()=>(<p>Forum->News</p>)}/>
